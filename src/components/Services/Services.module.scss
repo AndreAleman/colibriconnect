@@ -1,0 +1,132 @@
+.sectionTitle {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 68px;
+
+  @media (max-width: 1512px) {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-top: -12px;
+  }
+}
+
+.servicesList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  gap: 40px;
+
+  @media (max-width: 1512px) {
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 44px;
+  }
+
+  @media (max-width: 834px) {
+    margin-bottom: 80px;
+    gap: 40px;
+  }
+}
+
+.serviceCard {
+  width: 432px;
+  border-radius: 21px;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
+  padding: 57px 38px 40px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1512px) {
+    width: 100%;
+    padding: 40px 20px 40px 50px;
+  }
+
+  @media (max-width: 834px) {
+    padding: 20px 30px 30px 30px;
+  }
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 57px;
+  color: var(--blue);
+
+  @media (max-width: 1512px) and (min-width: 834px) {
+    padding-right: 30px;
+  }
+
+
+
+  @media (max-width: 1512px) {
+    margin-bottom: 46px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 20px;
+  }
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  height: 297px;
+  margin-top: -40px;
+  margin-bottom: -30px;
+
+  @media (max-width: 1512px) {
+    margin-top: -73px;
+    height: 250px;
+  }
+  @media (max-width: 834px) {
+    margin-top: -84px;
+    margin-bottom: -23px;
+  }
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+
+  @media (max-width: 1512px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  @media (max-width: 834px) {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}
+
+.btnWrapper {
+  margin-top: auto;
+  text-align: center;
+
+  @media (max-width: 1512px) and (min-width: 834px) {
+    padding-right: 30px;
+  }
+
+}
+
+
+.cardText {
+  @media (max-width: 1512px) {
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 18px;
+  }
+}

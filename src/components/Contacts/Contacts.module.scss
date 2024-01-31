@@ -1,0 +1,289 @@
+.contacts {
+  margin-bottom: 116px;
+  background: #fff;
+
+  @media (max-width: 834px) {
+    margin-bottom: 60px;
+  }
+
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 98px;
+  text-align: center;
+  margin-top: 12px;
+
+  @media (max-width: 1512px) {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 20px;
+    margin-bottom: 74px;
+    margin-top: -12px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 1512px) {
+    flex-direction: column;
+  }
+}
+
+.image {
+  width: 50%;
+
+  @media (max-width: 1512px) {
+    width: 434px;
+    height: 434px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 834px) {
+    width: 70%;
+    height: auto;
+    margin-bottom: 48px;
+  }
+}
+
+.form {
+  width: 50%;
+  padding: 38px 120px;
+  align-self: flex-start;
+  color: #667085;
+
+  @media (max-width: 1512px) {
+    width: 100%;
+    padding: 0px 64px;
+  }
+
+  @media (max-width: 834px) {
+    padding: 0;
+  }
+}
+
+.formTitle {
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+  margin-bottom: 10px;
+
+  @media (max-width: 1512px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+}
+
+.formText {
+  color: #475467;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 48px;
+
+  @media (max-width: 1512px) {
+    font-size: 16px;
+  }
+
+}
+
+.nameInputWrapper {
+  display: flex;
+  gap: 32px;
+
+
+  @media (max-width: 834px) {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .control {
+    width: 224px;
+  }
+
+  @media (max-width: 1512px) {
+    .control {
+      width: 297px;
+    }
+  }
+
+  @media (max-width: 834px) {
+    .control {
+      width: 100%;
+    }
+  }
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 48px;
+  margin-bottom: 24px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgba(35, 150, 227, 0.3);
+  }
+
+  &::placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.inputLabel {
+  color: #344054;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.message {
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 134px;
+  resize: none;
+  margin-bottom: 24px;
+  font-size: 16px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgba(35, 150, 227, 0.3);
+  }
+
+  &::placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.checkBoxControl {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.checkBox {
+  display: none;
+}
+
+.checkLabel {
+  position: relative;
+  padding-left: 35px;
+
+  &:before {
+    content: '';
+    left: 0px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #D0D5DD;
+    background: #FFF no-repeat;
+    background-size: contain;
+  }
+}
+
+.checkBox:checked + .checkLabel:before {
+  background-image: url('@/assets/checkIcon.svg');
+  background-size: 70%;
+  background-position: center;
+}
+
+.button {
+  width: 100% !important;
+}
+
+
+.customInputStyle {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 48px;
+  margin-bottom: 24px;
+  font-family: Montserrat, sans-serif;
+
+  &::placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.myPhoneInput label > div >  button:after {
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  content:'';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: url('@/assets/chevron-down.svg');
+}
+
+
+.myPhoneInput {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px !important;
+  border: 1px solid #D0D5DD !important;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 48px;
+  margin-bottom: 24px;
+  font-family: Montserrat, sans-serif;
+
+
+
+  label {
+    padding: 0;
+    top: -5px;
+    left: -10px;
+    position: relative;
+
+    div, input {
+      background: #FFFFFF;
+    }
+
+    div {
+      button {
+        font-weight: normal;
+
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}

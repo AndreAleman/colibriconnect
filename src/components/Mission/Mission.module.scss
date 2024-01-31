@@ -1,0 +1,117 @@
+.description {
+  display: flex;
+  margin-bottom: 45px;
+
+  @media (max-width: 1512px) {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 834px) {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 42px;
+  width: 65%;
+
+  @media (max-width: 1512px) {
+    font-size: 32px;
+    max-width: unset;
+    width: 50%;
+  }
+
+  @media (max-width: 834px) {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -12px;
+
+  }
+}
+
+.text {
+  width: 36%;
+  @media (max-width: 1512px) {
+    width: 50%;
+  }
+  @media (max-width: 834px) {
+    width: 100%;
+  }
+}
+
+.missionText {
+  margin-bottom: 20px;
+}
+
+.numberList {
+  margin: 0 auto 135px;
+  width: 1216px;
+  display: flex;
+  padding: 64px;
+  border-radius: 16px;
+  gap: 32px;
+  background-color: var(--light-green);
+
+  @media (max-width: 1512px) {
+    margin: 0 auto 100px;
+    padding: 40px 38px;
+    width: 707px;
+    gap: 46px;
+  }
+
+  @media (max-width: 834px) {
+    margin: 0 auto 55px;
+    padding: 40px 24px;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    gap: 38px;
+  }
+}
+
+.numberListItem {
+  width: 33%;
+  text-align: center;
+  color: var(--green);
+
+  @media (max-width: 834px) {
+    width: 100%;
+  }
+}
+
+.number {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+  margin-bottom: 12px;
+
+  @media (max-width: 1512px) {
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    margin-bottom: 6px;
+  }
+  @media (max-width: 834px) {
+    font-size: 44px;
+    letter-spacing: -0.88px;
+    margin-bottom: 0px;
+  }
+}
+
+.numberLabel {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+
+  @media (max-width: 1512px) {
+    font-size: 16px;
+  }
+  @media (max-width: 834px) {
+  }
+}

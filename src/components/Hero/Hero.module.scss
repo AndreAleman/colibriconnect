@@ -1,0 +1,76 @@
+.hero {
+  background: url(/src/assets/hero/bird-desktop.png) right -64px top -160px no-repeat;
+  padding-bottom: 172px;
+  border: transparent 1px solid;
+
+  @media (max-width: 1512px) {
+    background: url(/src/assets/hero/bird-tablet.png) right -45px top -89px no-repeat;
+    padding-bottom: 90px;
+  }
+
+  @media (max-width: 834px) {
+    background: url(@/assets/hero/bird-mobile.png) right 0px top -60px no-repeat;
+    padding-bottom: 55px;
+  }
+
+  @media (max-width: 390px) {
+    background-size: 65%;
+    background-position: right 0px  top -30px;
+  }
+}
+
+.mainTitle {
+  margin-top: 156px;
+  font-weight: 700;
+  line-height: 58px;
+  max-width: 58%;
+  margin-bottom: 30px;
+  font-size: 50px;
+
+  @media (max-width: 1512px) {
+    margin-top: 114px;
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 502px;
+    margin-bottom: 18px;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 77px;
+    margin-bottom: 30px;
+    max-width: 60%;
+    min-width: 202px;
+  }
+}
+
+.highlight {
+  color: var(--green);
+}
+
+.heroText {
+  width: 695px;
+  margin-bottom: 30px;
+
+  @media (max-width: 1512px) {
+    width: 469px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 834px) {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.buttonWrapper {
+  @media (max-width: 834px) {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: 18px 22px;
+  border-radius: 37px;
+  color: #FFF;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  &:hover {
+    @media (min-width: 1512px) {
+      background-color: #191919;
+      transition: .2s ease-out background-color;
+    }
+  }
+}
+
+.blue {
+  background-color: var(--dark-blue);
+}
+
+.green {
+  background-color: var(--green);
+}
