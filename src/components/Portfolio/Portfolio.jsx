@@ -21,7 +21,7 @@ const Portfolio = () => {
             <br/><br/> 
             The user experience is curated to reflect the brand's high standards, ensuring that each visitor not only understands the product range but also experiences the exclusivity and prestige associated with Spazzio Brasil.
             </p>
-            <Button color='green' href="ziobrasil.com.br/" target="_blank" rel="noreferrer">View Project</Button>
+            <Button color='green' href="https://spazziobrasil.com.br/" target="_blank" rel="noreferrer">View Project</Button>
           </div>
         </li>
 
