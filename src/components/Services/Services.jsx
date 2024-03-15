@@ -20,7 +20,9 @@ const Services = () => {
               specifically tailored to elevate your brand in the manufacturing industry.</p>
           </div>
           <div className={s.btnWrapper}>
-            <Button>Get Started</Button>
+          <Button color='blue' href="#contact">
+          Get Started
+        </Button>
           </div>
         </li>
         <li className={s.serviceCard}>
@@ -34,7 +36,9 @@ const Services = () => {
             </p>
           </div>
           <div className={s.btnWrapper}>
-            <Button>Get Started</Button>
+          <Button color='blue' href="#contact">
+          Get Started
+        </Button>
           </div>
         </li>
         <li className={s.serviceCard}>
@@ -48,7 +52,9 @@ const Services = () => {
             </p>
           </div>
           <div className={s.btnWrapper}>
-            <Button>Get Started</Button>
+          <Button color='blue' href="#contact">
+          Get Started
+        </Button>
           </div>
         </li>
       </ul>
